@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Vacuum Cleaner Base -->
+  <rect x="200" y="320" width="60" height="20" fill="#e74c3c" />
+  <rect x="210" y="300" width="40" height="20" fill="#c0392b" />
+  
+  <!-- Vacuum Cleaner Body -->
+  <rect x="220" y="200" width="30" height="100" fill="#e74c3c" />
+  <rect x="215" y="190" width="40" height="10" fill="#c0392b" />
+  
+  <!-- Vacuum Cleaner Head -->
+  <polygon points="215,190 255,190 240,150 230,150" fill="#34495e" />
+  
+  <!-- Vacuum Hose -->
+  <path d="M230,150 C180,120 200,80 230,50 C260,20 230,0 230,0" fill="none" stroke="#95a5a6" stroke-width="15" stroke-linecap="round" />
+  
+  <!-- Person -->
+  <circle cx="150" cy="100" r="30" fill="#ecf0f1" />
+  <rect x="140" y="130" width="20" height="80" fill="#ecf0f1" />
+  <rect x="120" y="150" width="20" height="60" fill="#ecf0f1" transform="rotate(20,120,150)" />
+  <rect x="160" y="150" width="20" height="60" fill="#ecf0f1" transform="rotate(-20,180,150)" />
+  <rect x="140" y="210" width="10" height="60" fill="#ecf0f1" />
+  <rect x="150" y="210" width="10" height="60" fill="#ecf0f1" />
+</svg>
