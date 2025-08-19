@@ -28,13 +28,13 @@ const Home = () => {
         'Achieve a mirror-like shine with precision diamond pad polishing for long-lasting beauty.',
     },
     {
-      image: '/src/pages/Screenshot 2025-08-15 111603.png',
+      image: '/Screenshot 2025-08-15 111603.png',
       title: 'Carpet Cleaning',
       description:
         'Specialized cleaning to restore the beauty of all Carpet surfaces.',
     },
     {
-      image: '/src/pages/upholstery-solutions-services.jpg',
+      image: '/upholstery-solutions-services.jpg',
       title: 'upholstery Cleaning',
       description:
         'Professional restoration and polishing services for all types of hard surfaces.',
@@ -142,7 +142,7 @@ const Home = () => {
               transition={{ duration: 1, delay: 0.3 }}
             >
               <motion.img 
-                src="/src/pages/OIP.PNG"
+                src="/OIP.PNG"
                 alt="Business Consulting"
                 className="rounded-lg shadow-2xl"
                 whileHover={{ scale: 1.05 }}

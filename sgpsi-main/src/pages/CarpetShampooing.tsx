@@ -148,7 +148,7 @@ const CarpetShampooing = () => {
               transition={{ duration: 1, delay: 0.3 }}
             >
               <motion.img 
-                src="/src/pages/Screenshot 2025-08-15 111603.png"
+                src="/Screenshot 2025-08-15 111603.png"
                 alt="Carpet Shampooing with Foam Generator"
                 className="rounded-lg shadow-2xl w-full"
                 whileHover={{ scale: 1.05 }}
@@ -238,7 +238,7 @@ const CarpetShampooing = () => {
             >
               <div className="aspect-w-16 aspect-h-9">
                 <img 
-                  src="/src/pages/Screenshot 2025-08-15 111603.png" 
+                  src="/Screenshot 2025-08-15 111603.png" 
                   alt="Foam Shampooing Process"
                   className="w-full h-full object-cover rounded-lg"
                 />

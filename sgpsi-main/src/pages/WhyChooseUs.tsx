@@ -82,21 +82,21 @@ const WhyChooseUs = () => {
     {
       name: "Anil Mehta",
       position: "Hotel Manager, Grand Stay",
-      image: "/src/pages/OIP.jpg",
+      image: "/pages/OIP.jpg",
       quote: "Our marble floors had lost their shine over the years, but after the team worked their magic, they look brand new! Guests can’t stop complimenting our lobby.",
       rating: 5
     },
     {
       name: "Sunita Verma",
       position: "Homeowner, South Delhi",
-      image: "/src/pages/OIP.webp",
+      image: "/pages/OIP.webp",
       quote: "They restored our granite floors to a mirror finish. Professional, on time, and the results exceeded our expectations. Worth every penny!",
       rating: 5
     },
     {
       name: "Rohit Sharma",
       position: "Restaurant Owner,Delhi",
-      image: "/src/pages/OIP.jpg",
+      image: "/pages/OIP.jpg",
       quote: "From deep cleaning to polishing, their service was flawless. The shine has lasted for months, and it’s so much easier to maintain now.",
       rating: 4.5
     }
@@ -199,7 +199,7 @@ const WhyChooseUs = () => {
               variants={itemVariants}
             >
               <img 
-                src="/src/pages/OIP.PNG"
+                src="/pages/OIP.PNG"
                 alt="Why Choose Us"
                 className="w-full h-full object-cover rounded-lg shadow-lg"
               />

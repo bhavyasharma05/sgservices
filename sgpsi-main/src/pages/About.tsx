@@ -43,13 +43,13 @@ const About = () => {
     {
       name: "Alka sharma",
       position: "founder& CEO",
-      image: "/src/pages/WhatsApp Image 2025-08-16 at 17.35.53_4217a197.jpg",
+      image: "/WhatsApp Image 2025-08-16 at 17.35.53_4217a197.jpg",
       description: "20+ years  experince in marble floor polishing & carpet cleaning buissness."
     },
     {
       name: "Manoj kumar sharma ",
       position: "Head of Operations & MD ",
-      image: "/src/pages/WhatsApp Image 2025-08-15 at 17.25.12_003cb080.jpg",
+      image: "/WhatsApp Image 2025-08-15 at 17.25.12_003cb080.jpg",
       description: "Specialist in operations management & high-quality floor care solutions."
     },
     

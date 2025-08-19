@@ -157,7 +157,7 @@ const CarpetCleaning = () => {
               transition={{ duration: 1, delay: 0.3 }}
             >
               <motion.img 
-                src="/src/pages/Carpet-Encapsulation-thumb.png"
+                src="/Carpet-Encapsulation-thumb.png"
                 alt="Carpet Cleaning Service"
                 className="rounded-lg shadow-2xl w-full"
                 whileHover={{ scale: 1.05 }}
@@ -196,7 +196,7 @@ const CarpetCleaning = () => {
             >
               <div className="w-full h-48 rounded-lg overflow-hidden mb-6">
                 <img 
-                  src="/src/pages/Screenshot 2025-08-15 111603.png" 
+                  src="/Screenshot 2025-08-15 111603.png" 
                   alt="Carpet Shampooing with Foam Generator" 
                   className="w-full h-full object-cover"
                 />
@@ -220,7 +220,7 @@ const CarpetCleaning = () => {
             >
               <div className="w-full h-48 rounded-lg overflow-hidden mb-6">
                 <img 
-                  src="/src/pages/injection.jpg" 
+                  src="/injection.jpg" 
                   alt="Carpet Injection & Extraction" 
                   className="w-full h-full object-cover"
                 />
@@ -244,7 +244,7 @@ const CarpetCleaning = () => {
             >
               <div className="w-full h-48 rounded-lg overflow-hidden mb-6">
                 <img 
-                  src="/src/pages/Carpet-Encapsulation-thumb.png" 
+                  src="/Carpet-Encapsulation-thumb.png" 
                   alt="Carpet Encapsulation" 
                   className="w-full h-full object-cover"
                 />

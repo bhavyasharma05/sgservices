@@ -144,7 +144,7 @@ const CarpetEncapsulation = () => {
                 transition={{ duration: 1, delay: 0.3 }}
               >
                 <motion.img 
-                  src="/src/pages/Carpet-Encapsulation-thumb.png"
+                  src="/Carpet-Encapsulation-thumb.png"
                   alt="Carpet Encapsulation Technology"
                   className="rounded-lg shadow-2xl w-full"
                   whileHover={{ scale: 1.05 }}
@@ -235,7 +235,7 @@ const CarpetEncapsulation = () => {
               >
                 <div className="aspect-w-16 aspect-h-9">
                   <img 
-                    src="/src/pages/Carpet-Encapsulation-thumb.png" 
+                    src="/Carpet-Encapsulation-thumb.png" 
                     alt="Encapsulation Process"
                     className="w-full h-full object-cover rounded-lg"
                   />

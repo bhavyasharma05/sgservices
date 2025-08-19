@@ -120,7 +120,7 @@ const UpholsteryCleaning = () => {
               transition={{ duration: 1, delay: 0.3 }}
             >
               <motion.img 
-                src="/src/pages/upholstery-solutions-services.jpg"
+                src="/upholstery-solutions-services.jpg"
                 alt="Upholstery Cleaning Service"
                 className="rounded-lg shadow-2xl w-full"
                 whileHover={{ scale: 1.05 }}

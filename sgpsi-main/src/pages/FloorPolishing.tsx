@@ -139,7 +139,7 @@ const FloorPolishing = () => {
               transition={{ duration: 1, delay: 0.3 }}
             >
               <motion.img 
-                src="/src/pages/OIP.PNG"
+                src=" /OIP.PNG"
                 alt="Floor Polishing Service"
                 className="rounded-lg shadow-2xl w-full"
                 whileHover={{ scale: 1.05 }}
@@ -234,7 +234,7 @@ const FloorPolishing = () => {
 
             <motion.div variants={itemVariants}>
               <img 
-                src="/src/pages/hard-floor-polishing (1).jpg"
+                src="/hard-floor-polishing (1).jpg"
                 alt="Marble Restoration"
                 className="rounded-lg shadow-lg w-full"
               />
@@ -323,7 +323,7 @@ const FloorPolishing = () => {
             
             <motion.div variants={itemVariants}>
               <img 
-                src="/src/pages/What-Best-Method-Polishing-Marble-Floors-1-scaled.jpg"
+                src="/What-Best-Method-Polishing-Marble-Floors-1-scaled.jpg"
                 alt="Marble Polishing"
                 className="rounded-lg shadow-lg w-full"
               />
@@ -341,7 +341,7 @@ const FloorPolishing = () => {
           >
             <motion.div variants={itemVariants}>
               <img 
-                src="/src/pages/granite-floor-restoration2.jpeg"
+                src="/granite-floor-restoration2.jpeg"
                 alt="Granite Polishing"
                 className="rounded-lg shadow-lg w-full"
               />
