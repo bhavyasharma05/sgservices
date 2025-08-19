@@ -199,7 +199,7 @@ const WhyChooseUs = () => {
               variants={itemVariants}
             >
               <img 
-                src="/pages/OIP.PNG"
+                src="/OIP.PNG"
                 alt="Why Choose Us"
                 className="w-full h-full object-cover rounded-lg shadow-lg"
               />

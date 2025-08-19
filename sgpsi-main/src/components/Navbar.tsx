@@ -3,10 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { 
   Menu, 
-  X, 
-  Phone, 
-  Mail, 
-  MapPin
+  X
 } from 'lucide-react';
 
 const Navbar = () => {
@@ -30,40 +27,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Top Contact Bar */}
-      <motion.div 
-        className="bg-gray-900 text-white py-2 px-4"
-        initial={{ y: -50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5 }}
-      >
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-sm">
-          <div className="flex items-center space-x-6">
-            <motion.div 
-              className="flex items-center hover:text-red-200 transition-colors cursor-pointer"
-              whileHover={{ scale: 1.05 }}
-            >
-              <Phone className="w-4 h-4 mr-2" />
-              <span>+91 9999629566</span>
-            </motion.div>
-            <motion.div 
-              className="flex items-center hover:text-red-200 transition-colors cursor-pointer"
-              whileHover={{ scale: 1.05 }}
-            >
-              <Mail className="w-4 h-4 mr-2" />
-              <span>sgservicesindia@gmail.com</span>
-            </motion.div>
-          </div>
-          <motion.div 
-            className="flex items-center mt-2 sm:mt-0 hover:text-red-200 transition-colors"
-            whileHover={{ scale: 1.05 }}
-          >
-            <MapPin className="w-4 h-4 mr-2" />
-            <span> Delhi , India</span>
-          </motion.div>
-        </div>
-      </motion.div>
-
       {/* Navigation */}
       <motion.nav 
         className={`sticky top-0 z-50 transition-all duration-300 ${
