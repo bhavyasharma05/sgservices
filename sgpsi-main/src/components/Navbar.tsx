@@ -45,7 +45,7 @@ const Navbar = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 <img 
-                  src="/Untitled_design-removebg-preview.png" 
+                  src="/favicon.png" 
                   alt="SG Services Logo" 
                   className="w-full h-full object-contain"
                 />
