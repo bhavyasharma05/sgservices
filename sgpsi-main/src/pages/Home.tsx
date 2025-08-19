@@ -22,7 +22,7 @@ const Home = () => {
 
   const services = [
     {
-      image: '/src/pages/OIP.PNG',
+      image: '/OIP.PNG',
       title: 'Floor Polishing',
       description:
         'Achieve a mirror-like shine with precision diamond pad polishing for long-lasting beauty.',
