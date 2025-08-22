@@ -70,28 +70,29 @@ const Home = () => {
       variants={containerVariants}
     >
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden" style={{ backgroundColor: '#FFF8DF' }}>
-        <div className="absolute inset-0 bg-gradient-to-r from-red-600/10 to-gray-600/10"></div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <section className="relative section-padding overflow-hidden bg-gradient-to-br from-neutral-50 to-primary-50">
+        <div className="absolute inset-0 bg-gradient-to-r from-primary-600/5 to-secondary-600/5"></div>
+        <div className="container-custom relative">
+          <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <motion.div variants={itemVariants}>
               <motion.div 
-                className="mb-8"
+                className="mb-6 lg:mb-8"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
               >
-                 
+                <span className="inline-block bg-primary-100 text-primary-800 px-4 py-2 rounded-full text-sm font-medium">
+                  Professional Cleaning Services
+                </span>
               </motion.div>
               <motion.h1 
-                className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight"
+                className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-neutral-900 mb-4 lg:mb-6 leading-tight font-display"
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                
                 <motion.span 
-                  className="block text-red-600"
+                  className="block text-gradient"
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.8, delay: 0.5 }}
@@ -101,7 +102,7 @@ const Home = () => {
               </motion.h1>
               
               <motion.p 
-                className="text-xl text-gray-600 mb-8 leading-relaxed"
+                className="text-lg sm:text-xl text-neutral-600 mb-6 lg:mb-8 leading-relaxed"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
@@ -109,84 +110,89 @@ const Home = () => {
                 Because a clean space isn't just about looks —
                 It's about comfort, health, and peace of mind.
                 Live each day in the freshness you deserve.
-
-
               </motion.p>
               
               <motion.div 
-                className="flex flex-col sm:flex-row gap-4"
+                className="flex flex-col sm:flex-row gap-4 lg:gap-6"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.9 }}
               >
-                <Link 
-                  to="/get-quote"
-                  className="group bg-red-600 text-white px-8 py-4 rounded-md hover:bg-red-700 transition-all duration-300 font-semibold flex items-center justify-center shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                >
-                  Contact Us Today
-                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                </Link>
-                <Link 
-                  to="/about"
-                  className="border-2 border-red-600 text-red-600 px-8 py-4 rounded-md hover:bg-red-600 hover:text-white transition-all duration-300 font-semibold text-center transform hover:-translate-y-1"
-                >
-                  Learn More
-                </Link>
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                  <Link 
+                    to="/contact"
+                    className="btn-primary flex items-center justify-center group"
+                  >
+                    Contact Us Today
+                    <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                </motion.div>
+                <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                  <Link 
+                    to="/about"
+                    className="btn-secondary text-center"
+                  >
+                    Learn More
+                  </Link>
+                </motion.div>
               </motion.div>
             </motion.div>
             
             <motion.div 
-              className="relative"
-              initial={{ opacity: 0, scale: 0.8, rotate: 5 }}
+              className="relative order-first lg:order-last"
+              initial={{ opacity: 0, scale: 0.8, rotate: 2 }}
               animate={{ opacity: 1, scale: 1, rotate: 0 }}
               transition={{ duration: 1, delay: 0.3 }}
             >
-              <motion.img 
-                src="/OIP.PNG"
-                alt="Business Consulting"
-                className="rounded-lg shadow-2xl"
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.3 }}
-              />
-              <motion.div 
-                className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-xl"
-                initial={{ opacity: 0, x: -30, y: 30 }}
-                animate={{ opacity: 1, x: 0, y: 0 }}
-                transition={{ duration: 0.8, delay: 1.2 }}
-                whileHover={{ scale: 1.05 }}
-              >
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                    <CheckCircle className="w-6 h-6 text-green-600" />
+              <div className="relative">
+                <motion.img 
+                  src="/OIP.PNG"
+                  alt="Professional Cleaning Services"
+                  className="rounded-2xl shadow-2xl w-full h-auto"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.3 }}
+                  loading="eager"
+                />
+                <motion.div 
+                  className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-white p-4 sm:p-6 rounded-xl shadow-xl"
+                  initial={{ opacity: 0, x: -30, y: 30 }}
+                  animate={{ opacity: 1, x: 0, y: 0 }}
+                  transition={{ duration: 0.8, delay: 1.2 }}
+                  whileHover={{ scale: 1.05 }}
+                >
+                  <div className="flex items-center space-x-3 sm:space-x-4">
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-100 rounded-full flex items-center justify-center">
+                      <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" />
+                    </div>
+                    <div>
+                      <div className="font-semibold text-neutral-900 text-sm sm:text-base">5000+ Services</div>
+                      <div className="text-neutral-600 text-xs sm:text-sm">Successfully Delivered</div>
+                    </div>
                   </div>
-                  <div>
-                    <div className="font-semibold text-gray-900">5000+ Services</div>
-                    <div className="text-gray-600 text-sm">Successfully Delivered</div>
-                  </div>
-                </div>
-              </motion.div>
+                </motion.div>
+              </div>
             </motion.div>
           </div>
         </div>
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20" style={{ backgroundColor: '#FFF8DF' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="services" className="section-padding bg-gradient-to-br from-primary-50 to-secondary-50">
+        <div className="container-custom">
           <motion.div 
             className="text-center mb-16"
             variants={itemVariants}
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 mb-4 lg:mb-6 font-display">
               Our Services
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg sm:text-xl text-neutral-600 max-w-3xl mx-auto">
               Professional cleaning and maintenance solutions for homes, offices, and commercial spaces
             </p>
           </motion.div>
 
           <motion.div 
-            className="grid md:grid-cols-3 gap-8"
+            className="responsive-grid"
             variants={containerVariants}
           >
             {services.map((service, index) => (
@@ -196,44 +202,40 @@ const Home = () => {
                 className="block"
               >
                 <motion.div 
-                  className="group bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 cursor-pointer flex flex-col"
+                  className="group bg-white p-6 lg:p-8 rounded-xl shadow-lg card-hover border border-neutral-100 cursor-pointer flex flex-col h-full"
                   variants={itemVariants}
-                  whileHover={{ y: -10, scale: 1.02 }}
+                  whileHover={{ y: -8, scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  style={{ minHeight: '400px' }} // Ensures enough space for the image
                 >
                   <motion.div 
-                    className="w-full h-1/2 rounded-lg overflow-hidden mb-6 flex-grow"
-                    style={{ height: '200px', width: '100%' }} // Enlarged image container
-                    whileHover={{ rotate: 0 }}
+                    className="w-full h-48 sm:h-56 lg:h-64 rounded-lg overflow-hidden mb-4 lg:mb-6"
+                    whileHover={{ scale: 1.05 }}
                     transition={{ duration: 0.3 }}
                   >
-                    <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
+                    <img 
+                      src={service.image} 
+                      alt={service.title} 
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" 
+                      loading="lazy"
+                    />
                   </motion.div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-4 group-hover:text-red-600 transition-colors">
+                  <h3 className="text-lg sm:text-xl font-semibold text-neutral-900 mb-3 lg:mb-4 group-hover:text-primary-600 transition-colors font-display">
                     {service.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">{service.description}</p>
+                  <p className="text-neutral-600 leading-relaxed text-sm sm:text-base flex-grow">{service.description}</p>
                 </motion.div>
               </Link>
             ))}
-          </motion.div>
-
-          <motion.div 
-            className="text-center mt-12"
-            variants={itemVariants}
-          >
-           
           </motion.div>
         </div>
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-red-600 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-red-800"></div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <section className="section-padding bg-gradient-to-r from-primary-600 to-primary-800 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-primary-600/90 to-primary-800/90"></div>
+        <div className="container-custom relative">
           <motion.div 
-            className="grid md:grid-cols-4 gap-8 text-center"
+            className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 text-center"
             variants={containerVariants}
           >
             {stats.map((stat, index) => (
@@ -244,14 +246,14 @@ const Home = () => {
                 className="group"
               >
                 <motion.div 
-                  className="text-4xl font-bold text-white mb-2 group-hover:text-red-200 transition-colors"
+                  className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-2 group-hover:text-primary-200 transition-colors font-display"
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.6, delay: 0.2 * index }}
                 >
                   {stat.number}
                 </motion.div>
-                <div className="text-red-100 group-hover:text-white transition-colors">{stat.label}</div>
+                <div className="text-primary-100 group-hover:text-white transition-colors text-sm sm:text-base">{stat.label}</div>
               </motion.div>
             ))}
           </motion.div>
@@ -259,28 +261,29 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20" style={{ backgroundColor: '#FFF8DF' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="section-padding bg-gradient-to-br from-neutral-50 to-primary-50">
+        <div className="container-custom text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            Ready to Shine Your Space Like Never Before?
+            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 mb-4 lg:mb-6 font-display">
+              Ready to Shine Your Space Like Never Before?
             </h2>
-            <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Experience the perfect blend of expert housekeeping and premium floor polishing services—delivering spotless, sparkling, and truly inviting results every single time.
+            <p className="text-lg sm:text-xl text-neutral-600 mb-6 lg:mb-8 max-w-3xl mx-auto">
+              Experience the perfect blend of expert housekeeping and premium floor polishing services—delivering spotless, sparkling, and truly inviting results every single time.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link 
-                to="/contact"
-                className="bg-red-600 text-white px-8 py-4 rounded-md hover:bg-red-700 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-              >
-                Contact Us Today
-              </Link>
-
+            <div className="flex flex-col sm:flex-row gap-4 lg:gap-6 justify-center">
+              <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+                <Link 
+                  to="/contact"
+                  className="btn-primary"
+                >
+                  Contact Us Today
+                </Link>
+              </motion.div>
             </div>
           </motion.div>
         </div>
