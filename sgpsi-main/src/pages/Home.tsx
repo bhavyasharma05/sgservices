@@ -389,47 +389,47 @@ const Home = () => {
     >
       {/* Samsung */}
       <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/logos/samsung.png" alt="Samsung Logo" className="h-10 object-contain" />
+        <img src="/ds group.webp" alt="Samsung Logo" className="h-10 object-contain" />
       </motion.div>
 
       {/* Datadog */}
       <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/logos/datadog.svg" alt="Datadog Logo" className="h-10 object-contain" />
+        <img src="/aktins.webp" alt="Datadog Logo" className="h-10 object-contain" />
       </motion.div>
 
       {/* Stripe */}
       <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/logos/stripe.svg" alt="Stripe Logo" className="h-10 object-contain" />
+        <img src="/amax.jpg" alt="Stripe Logo" className="h-10 object-contain" />
       </motion.div>
 
       {/* Monday.com */}
       <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/logos/monday.png" alt="Monday.com Logo" className="h-10 object-contain" />
+        <img src="/coforge.png" alt="Monday.com Logo" className="h-10 object-contain" />
       </motion.div>
 
       {/* Rippling */}
       <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/logos/rippling.png" alt="Rippling Logo" className="h-10 object-contain" />
+        <img src="/campus group.webp" alt="Rippling Logo" className="h-10 object-contain" />
       </motion.div>
 
       {/* Perplexity */}
       <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/logos/perplexity.png" alt="Perplexity Logo" className="h-10 object-contain" />
+        <img src="/monnit.jpg" alt="Perplexity Logo" className="h-10 object-contain" />
       </motion.div>
 
       {/* Ramp */}
       <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/logos/ramp.png" alt="Ramp Logo" className="h-10 object-contain" />
+        <img src="/mall.jpg" alt="Ramp Logo" className="h-10 object-contain" />
       </motion.div>
 
       {/* Shopify */}
       <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/logos/shopify.png" alt="Shopify Logo" className="h-10 object-contain" />
+        <img src="/kpmg.jpg" alt="Shopify Logo" className="h-10 object-contain" />
       </motion.div>
 
       {/* US Foods */}
       <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/logos/usfoods.png" alt="US Foods Logo" className="h-10 object-contain" />
+        <img src="/primus hospital.png" alt="US Foods Logo" className="h-10 object-contain" />
       </motion.div>
 
       {/* Mercado Libre */}
