@@ -19,23 +19,23 @@ const About = () => {
   const values = [
     {
       icon: <Target className="w-8 h-8" />,
-      title: "Expert Housekeeping",
-      description: "Thorough cleaning for homes, offices, and commercial spaces."
+      title: "Floor Polishing Expertise",
+      description: "Professional marble & granite floor polishing in Delhi NCR with diamond polishing technology."
     },
     {
       icon: <Heart className="w-8 h-8" />,
-      title: "Professional Floor Polishing",
-      description: "Shine and restore all types of floors to perfection."
+      title: "Carpet Cleaning Specialists",
+      description: "Expert carpet cleaning services in Delhi & Gurugram with advanced cleaning methods."
     },
     {
       icon: <Lightbulb className="w-8 h-8" />,
-      title: "Trained & Trustworthy Team",
-      description: "Skilled staff with verified backgrounds."
+      title: "Sofa & Blind Cleaning",
+      description: "Professional sofa cleaning and blind cleaning services for homes and offices."
     },
     {
       icon: <Users className="w-8 h-8" />,
-      title: "Modern Tools & Techniques",
-      description: "We value your time and schedule."
+      title: "Delhi NCR Coverage",
+      description: "Serving Delhi, Gurugram, Faridabad with reliable and timely cleaning services."
     }
   ];
 
@@ -105,14 +105,14 @@ const About = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                About
+                About SG Services - Floor Polishing Experts in Delhi NCR
                 <motion.span 
                   className="block text-gradient"
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.8, delay: 0.5 }}
                 >
-                  SG Services
+                  20+ Years Experience
                 </motion.span>
               </motion.h1>
               
@@ -122,8 +122,8 @@ const About = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
               >
-                We are a leading provider of professional cleaning and maintenance services, 
-                committed to delivering excellence in every project we undertake.
+                Leading provider of floor polishing in Delhi, Gurugram & Faridabad. Professional carpet cleaning, sofa cleaning & blind cleaning services. 
+                Trusted by 5000+ customers across Delhi NCR with 20+ years of expertise.
               </motion.p>
               
               <motion.div 
@@ -202,23 +202,23 @@ const About = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-900 mb-4 lg:mb-6 font-display">
-                🌟 SG Services – Where Cleanliness Meets Perfection 🌟
+                🌟 SG Services – Premier Floor Polishing & Carpet Cleaning in Delhi NCR 🌟
               </h2>
               
               <p className="text-base sm:text-lg text-neutral-600 mb-4 lg:mb-6 leading-relaxed">
-                At SG Services, we believe a truly clean space is more than just dust-free floors or tidy rooms – it's about creating an environment that feels fresh, inviting, and energizing every single day. With our expert housekeeping and professional floor polishing, we bring a new level of care, precision, and brilliance to your home, office, or commercial space.
+                At SG Services, we specialize in professional floor polishing in Delhi, Gurugram, and Faridabad. Our expert team provides comprehensive carpet cleaning, sofa cleaning, and blind cleaning services across Delhi NCR. With 20+ years of experience and 5000+ satisfied customers, we deliver exceptional results for residential and commercial properties.
               </p>
               
               <p className="text-base sm:text-lg text-neutral-600 mb-6 lg:mb-8 leading-relaxed">
-                We're not just cleaners – we're perfectionists. Our trained team uses modern tools, advanced techniques, and safe, high-quality products to ensure your surroundings are not only spotless but also healthy and well-maintained. From marble and granite floors that gleam like new to every corner of your home left dust-free, our mission is to deliver the clean you deserve.
+                Our specialized services include marble floor polishing, granite floor restoration, deep carpet cleaning, professional sofa cleaning, and comprehensive blind cleaning. We use advanced diamond polishing techniques and modern equipment to restore your floors to mirror-like shine while ensuring complete customer satisfaction.
               </p>
               
               <div className="grid sm:grid-cols-2 gap-4 lg:gap-6">
                 {[
-                  "Skilled & Trained Team",
-                  "On-Time & Reliable Service", 
-                  "Modern Tools & Techniques",
-                  "100% Customer Satisfaction"
+                  "Floor Polishing Experts - Delhi NCR",
+                  "Professional Carpet Cleaning Services", 
+                  "Sofa & Blind Cleaning Specialists",
+                  "5000+ Satisfied Customers"
                 ].map((item, index) => (
                   <motion.div 
                     key={index}
@@ -258,8 +258,7 @@ const About = () => {
               </div>
               <h3 className="text-xl lg:text-2xl font-bold text-neutral-900 mb-3 lg:mb-4 font-display">Our Mission</h3>
               <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">
-                At SG Services, our mission is to deliver world-class housekeeping and floor polishing solutions that transform every space into a clean, safe, and welcoming environment.
-                We are dedicated to using modern techniques, skilled professionals, and a customer-first approach to ensure unmatched quality and long-lasting results.
+                To provide the best floor polishing services in Delhi, Gurugram, and Faridabad. We deliver professional carpet cleaning, sofa cleaning, and blind cleaning services using advanced techniques and modern equipment. Our mission is to exceed customer expectations with every project while maintaining the highest standards of quality and reliability.
               </p>
             </motion.div>
             
@@ -273,8 +272,7 @@ const About = () => {
               </div>
               <h3 className="text-xl lg:text-2xl font-bold text-neutral-900 mb-3 lg:mb-4 font-display">Our Vision</h3>
               <p className="text-neutral-600 leading-relaxed text-sm sm:text-base">
-                To be the most trusted and preferred provider of housekeeping and floor polishing services, recognized for our excellence, reliability, and innovation.
-                We aim to create cleaner, healthier, and more beautiful spaces that inspire comfort, productivity, and pride for every client we serve.
+                To become the leading floor polishing and carpet cleaning service provider across Delhi NCR. We envision expanding our professional cleaning services while maintaining our reputation for excellence in marble polishing, granite restoration, carpet cleaning, sofa cleaning, and blind cleaning throughout Delhi, Gurugram, and Faridabad.
               </p>
             </motion.div>
           </div>
@@ -289,10 +287,10 @@ const About = () => {
             variants={itemVariants}
           >
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-900 mb-4 font-display">
-              How We Deliver Excellence
+              Why Choose Our Floor Polishing & Carpet Cleaning Services
             </h2>
             <p className="text-lg sm:text-xl text-neutral-600">
-              The Standards We Live By
+              Professional cleaning services across Delhi, Gurugram & Faridabad
             </p>
           </motion.div>
           

@@ -23,21 +23,21 @@ const Home = () => {
   const services = [
     {
       image: '/OIP.PNG',
-      title: 'Floor Polishing',
+      title: 'Floor Polishing in Delhi NCR',
       description:
-        'Achieve a mirror-like shine with precision diamond pad polishing for long-lasting beauty.',
+        'Professional marble & granite floor polishing in Delhi, Gurugram, Faridabad. Diamond pad polishing for mirror-like shine.',
     },
     {
       image: '/Screenshot 2025-08-15 111603.png',
-      title: 'Carpet Cleaning',
+      title: 'Carpet Cleaning Services',
       description:
-        'Specialized cleaning to restore the beauty of all Carpet surfaces.',
+        'Expert carpet cleaning in Delhi & Gurugram. Deep cleaning, shampooing & stain removal for all carpet types.',
     },
     {
       image: '/upholstery-solutions-services.jpg',
-      title: 'upholstery Cleaning',
+      title: 'Sofa & Blind Cleaning',
       description:
-        'Professional restoration and polishing services for all types of hard surfaces.',
+        'Professional sofa cleaning, upholstery cleaning & blind cleaning services for homes and offices.',
     },
   ];
 
@@ -97,7 +97,7 @@ const Home = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.8, delay: 0.5 }}
                 >
-                  SG Services 
+                  Professional Floor Polishing & Carpet Cleaning in Delhi NCR
                 </motion.span>
               </motion.h1>
               
@@ -107,9 +107,8 @@ const Home = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
               >
-                Because a clean space isn't just about looks —
-                It's about comfort, health, and peace of mind.
-                Live each day in the freshness you deserve.
+                Expert floor polishing in Faridabad, Gurugram & Delhi. Professional carpet cleaning, sofa cleaning & blind cleaning services. 
+                20+ years experience serving 5000+ satisfied customers across Delhi NCR.
               </motion.p>
               
               <motion.div 
@@ -183,11 +182,11 @@ const Home = () => {
             className="text-center mb-16"
             variants={itemVariants}
           >
-            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 mb-4 lg:mb-6 font-display">
-              Our Services
+            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 mb-4 lg:mb-6 font-display" id="services">
+              Professional Cleaning Services in Delhi, Gurugram & Faridabad
             </h2>
             <p className="text-lg sm:text-xl text-neutral-600 max-w-3xl mx-auto">
-              Professional cleaning and maintenance solutions for homes, offices, and commercial spaces
+              Expert floor polishing, carpet cleaning, sofa cleaning & blind cleaning services across Delhi NCR
             </p>
           </motion.div>
 
@@ -273,7 +272,8 @@ const Home = () => {
               Ready to Shine Your Space Like Never Before?
             </h2>
             <p className="text-lg sm:text-xl text-neutral-600 mb-6 lg:mb-8 max-w-3xl mx-auto">
-              Experience the perfect blend of expert housekeeping and premium floor polishing services—delivering spotless, sparkling, and truly inviting results every single time.
+              Get professional floor polishing in Delhi, Gurugram, Faridabad. Expert carpet cleaning, sofa cleaning & blind cleaning services. 
+              Free consultation available. Call +91-9999629566 today!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 lg:gap-6 justify-center">
               <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
@@ -281,10 +281,173 @@ const Home = () => {
                   to="/contact"
                   className="btn-primary"
                 >
-                  Contact Us Today
+                  Get Free Quote - Call Now
                 </Link>
               </motion.div>
             </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* New SEO-Optimized Location Services Section */}
+      <section className="section-padding bg-white">
+        <div className="container-custom">
+          <motion.div 
+            className="text-center mb-16"
+            variants={itemVariants}
+          >
+            <h2 className="text-3xl sm:text-4xl font-bold text-neutral-900 mb-4 lg:mb-6 font-display">
+              Floor Polishing & Carpet Cleaning Services Across Delhi NCR
+            </h2>
+            <p className="text-lg sm:text-xl text-neutral-600 max-w-3xl mx-auto">
+              Professional cleaning services available in Delhi, Gurugram, and Faridabad
+            </p>
+          </motion.div>
+
+          <motion.div 
+            className="grid md:grid-cols-3 gap-8"
+            variants={containerVariants}
+          >
+            <motion.div 
+              className="bg-neutral-50 p-6 lg:p-8 rounded-xl shadow-lg card-hover"
+              variants={itemVariants}
+              whileHover={{ y: -5 }}
+            >
+              <h3 className="text-xl lg:text-2xl font-bold text-neutral-900 mb-3 lg:mb-4 font-display">
+                Floor Polishing in Delhi
+              </h3>
+              <p className="text-neutral-600 leading-relaxed text-sm sm:text-base mb-4">
+                Expert marble and granite floor polishing services across Delhi. Professional diamond polishing for homes, offices, and commercial spaces.
+              </p>
+              <ul className="text-sm text-neutral-600 space-y-2">
+                <li>✓ Marble floor polishing</li>
+                <li>✓ Granite floor restoration</li>
+                <li>✓ Commercial floor polishing</li>
+                <li>✓ Residential floor care</li>
+              </ul>
+            </motion.div>
+
+            <motion.div 
+              className="bg-neutral-50 p-6 lg:p-8 rounded-xl shadow-lg card-hover"
+              variants={itemVariants}
+              whileHover={{ y: -5 }}
+            >
+              <h3 className="text-xl lg:text-2xl font-bold text-neutral-900 mb-3 lg:mb-4 font-display">
+                Floor Polishing in Gurugram
+              </h3>
+              <p className="text-neutral-600 leading-relaxed text-sm sm:text-base mb-4">
+                Professional floor polishing services in Gurugram. Specialized in marble, granite, and stone floor restoration with modern equipment.
+              </p>
+              <ul className="text-sm text-neutral-600 space-y-2">
+                <li>✓ Office floor polishing</li>
+                <li>✓ Residential marble care</li>
+                <li>✓ Stone floor restoration</li>
+                <li>✓ High-rise building services</li>
+              </ul>
+            </motion.div>
+
+            <motion.div 
+              className="bg-neutral-50 p-6 lg:p-8 rounded-xl shadow-lg card-hover"
+              variants={itemVariants}
+              whileHover={{ y: -5 }}
+            >
+              <h3 className="text-xl lg:text-2xl font-bold text-neutral-900 mb-3 lg:mb-4 font-display">
+                Floor Polishing in Faridabad
+              </h3>
+              <p className="text-neutral-600 leading-relaxed text-sm sm:text-base mb-4">
+                Expert floor polishing services in Faridabad. Complete marble and granite floor care solutions for residential and commercial properties.
+              </p>
+              <ul className="text-sm text-neutral-600 space-y-2">
+                <li>✓ Home floor polishing</li>
+                <li>✓ Commercial floor care</li>
+                <li>✓ Marble restoration</li>
+                <li>✓ Granite polishing</li>
+              </ul>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Trusted By Section - Based on attachment */}
+      <section className="section-padding bg-neutral-900">
+        <div className="container-custom">
+          <motion.div 
+            className="text-center mb-12"
+            variants={itemVariants}
+          >
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
+              TRUSTED BY PROFESSIONALS ACROSS DELHI NCR
+            </h2>
+            <p className="text-neutral-300 text-lg">
+              Leading companies trust SG Services for their floor polishing and carpet cleaning needs
+            </p>
+          </motion.div>
+          
+          <motion.div 
+            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center opacity-60"
+            variants={containerVariants}
+          >
+            {/* Company logos placeholder - matching the attachment style */}
+            <motion.div 
+              className="flex items-center justify-center h-16"
+              variants={itemVariants}
+            >
+              <div className="text-neutral-400 text-lg font-semibold">SAMSUNG</div>
+            </motion.div>
+            <motion.div 
+              className="flex items-center justify-center h-16"
+              variants={itemVariants}
+            >
+              <div className="text-neutral-400 text-lg font-semibold">DATADOG</div>
+            </motion.div>
+            <motion.div 
+              className="flex items-center justify-center h-16"
+              variants={itemVariants}
+            >
+              <div className="text-neutral-400 text-lg font-semibold">stripe</div>
+            </motion.div>
+            <motion.div 
+              className="flex items-center justify-center h-16"
+              variants={itemVariants}
+            >
+              <div className="text-neutral-400 text-lg font-semibold">monday.com</div>
+            </motion.div>
+            <motion.div 
+              className="flex items-center justify-center h-16"
+              variants={itemVariants}
+            >
+              <div className="text-neutral-400 text-lg font-semibold">RIPPLING</div>
+            </motion.div>
+            <motion.div 
+              className="flex items-center justify-center h-16"
+              variants={itemVariants}
+            >
+              <div className="text-neutral-400 text-lg font-semibold">perplexity</div>
+            </motion.div>
+            <motion.div 
+              className="flex items-center justify-center h-16"
+              variants={itemVariants}
+            >
+              <div className="text-neutral-400 text-lg font-semibold">ramp</div>
+            </motion.div>
+            <motion.div 
+              className="flex items-center justify-center h-16"
+              variants={itemVariants}
+            >
+              <div className="text-neutral-400 text-lg font-semibold">shopify</div>
+            </motion.div>
+            <motion.div 
+              className="flex items-center justify-center h-16"
+              variants={itemVariants}
+            >
+              <div className="text-neutral-400 text-lg font-semibold">US FOODS</div>
+            </motion.div>
+            <motion.div 
+              className="flex items-center justify-center h-16"
+              variants={itemVariants}
+            >
+              <div className="text-neutral-400 text-lg font-semibold">mercado libre</div>
+            </motion.div>
           </motion.div>
         </div>
       </section>

@@ -218,14 +218,14 @@ const Services = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                Professional
+                Floor Polishing & Carpet Cleaning
                 <motion.span 
                   className="block text-red-600"
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.8, delay: 0.5 }}
                 >
-                  Cleaning Services
+                  Services in Delhi NCR
                 </motion.span>
               </motion.h1>
               
@@ -235,8 +235,8 @@ const Services = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
               >
-                Comprehensive cleaning and maintenance solutions for homes, offices, and commercial spaces. 
-                We deliver excellence in every project with our skilled team and modern techniques.
+                Expert floor polishing in Delhi, Gurugram & Faridabad. Professional carpet cleaning, sofa cleaning & blind cleaning services. 
+                20+ years experience serving residential and commercial clients across Delhi NCR.
               </motion.p>
               
               <motion.div 
@@ -327,10 +327,10 @@ const Services = () => {
             variants={itemVariants}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Our Process
+              Our Professional Cleaning Process
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A systematic approach to delivering exceptional results
+              Systematic approach for floor polishing, carpet cleaning & sofa cleaning services
             </p>
           </motion.div>
 
@@ -375,7 +375,7 @@ const Services = () => {
               Ready to Get Started?
             </h2>
             <p className="text-xl text-red-100 mb-8 max-w-3xl mx-auto">
-              Contact us today for a free consultation and quote on our professional cleaning services
+              Get professional floor polishing in Delhi, Gurugram, Faridabad. Free consultation for carpet cleaning, sofa cleaning & blind cleaning services. Call +91-9999629566
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a 
@@ -384,7 +384,7 @@ const Services = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Get Free Quote
+                Get Free Quote - Call Now
                 <ArrowRight className="w-5 h-5 ml-2" />
               </motion.a>
               <motion.a 

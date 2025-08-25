@@ -83,14 +83,14 @@ const FloorPolishing = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                Marble & Granite
+                Professional Floor Polishing in Delhi, Gurugram & Faridabad
                 <motion.span 
                   className="block text-red-600"
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.8, delay: 0.5 }}
                 >
-                  Floor Polishing with Diamonds ✨
+                  Marble & Granite Polishing Experts ✨
                 </motion.span>
               </motion.h1>
               
@@ -100,8 +100,8 @@ const FloorPolishing = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
               >
-                We can give your old, dull marble or granite flooring a new look! From tough granite to soft limestone, 
-                we clean, polish, remove stains, and seal almost any natural stone surface to repair damages.
+                Expert floor polishing services in Delhi, Gurugram, and Faridabad. Professional marble and granite floor restoration using advanced diamond polishing technology. 
+                Transform your dull floors into mirror-like surfaces with our 20+ years of expertise.
               </motion.p>
               
               <motion.div 
@@ -158,10 +158,10 @@ const FloorPolishing = () => {
             variants={itemVariants}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Our Two-Step Process Delivers Excellence
+              Professional Floor Polishing Process - Delhi NCR
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Advanced diamond resurfacing methods for superior results
+              Advanced diamond polishing methods for marble and granite floors across Delhi, Gurugram & Faridabad
             </p>
           </motion.div>
           
@@ -199,14 +199,13 @@ const FloorPolishing = () => {
             <motion.div variants={itemVariants}>
               <div className="flex items-center mb-6">
                 <Wrench className="w-8 h-8 text-red-600 mr-3" />
-                <h2 className="text-3xl font-bold text-gray-900">Restoration & Maintenance🔧</h2>
+                <h2 className="text-3xl font-bold text-gray-900">Floor Restoration & Maintenance in Delhi NCR 🔧</h2>
               </div>
               <p className="text-lg text-gray-600 mb-6">
-                Is your marble dull, scratched, and in urgent need of care? You might be wondering: 
-                "What needs to be done?" or "Does it only need polishing or crystallization?"
+                Is your marble or granite floor in Delhi, Gurugram, or Faridabad looking dull and scratched? Our floor polishing experts assess your specific needs to determine the best restoration approach.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                We determine the best solution by assessing:
+                Our floor polishing specialists in Delhi NCR evaluate:
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-center text-gray-700">
@@ -224,11 +223,11 @@ const FloorPolishing = () => {
               </ul>
               <div className="bg-red-50 border-l-4 border-red-600 p-4">
                 <p className="text-red-800 font-medium">
-                  <strong>Important:</strong> Restoration requires skill, experience, and proper equipment — avoid DIY attempts. Once restored, a good maintenance program is essential to keep your stone in perfect condition, extend its lifespan, and maintain its beauty.
+                  <strong>Important:</strong> Professional floor polishing requires expertise and proper equipment. SG Services provides expert floor restoration in Delhi, Gurugram & Faridabad with proper maintenance programs to keep your floors in perfect condition.
                 </p>
               </div>
               <p className="text-lg text-gray-600 mt-6">
-                S.G. Services provides expert restoration and care for marble, preserving its natural elegance and shine.
+                SG Services delivers professional floor polishing across Delhi NCR, preserving the natural elegance and shine of your marble and granite floors.
               </p>
             </motion.div>
 
@@ -251,10 +250,10 @@ const FloorPolishing = () => {
             variants={itemVariants}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Why Choose Our Polishing Services? 🏆
+              Why Choose Our Floor Polishing Services in Delhi NCR? 🏆
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Professional floor polishing & restoration for all types of stone flooring.
+              Expert floor polishing in Delhi, Gurugram & Faridabad for all types of marble and granite flooring.
             </p>
           </motion.div>
           
@@ -292,31 +291,31 @@ const FloorPolishing = () => {
           >
             <motion.div variants={itemVariants}>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Marble Polishing 🪞
+                Professional Marble Floor Polishing in Delhi NCR 🪞
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Specialized treatment using single-disk machines and industrial-grade pads to restore shine to all kinds of marble.
+                Expert marble floor polishing services in Delhi, Gurugram & Faridabad using advanced single-disk machines and industrial-grade diamond pads for superior results.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                  Professional polishing & restoration
+                  Professional marble polishing in Delhi NCR
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                  Ideal for Italian/Indian marble & sandstone
+                  Expert care for Italian/Indian marble floors
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                  Complete floor maintenance solutions
+                  Complete floor polishing solutions
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                  Shine-measuring mechanism included
+                  Quality assurance with shine measurement
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                  Sealing treatment for cracks & scratches
+                  Professional crack repair & sealing
                 </li>
               </ul>
             </motion.div>
@@ -349,31 +348,31 @@ const FloorPolishing = () => {
             
             <motion.div variants={itemVariants}>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Granite Polishing 🪨
+                Expert Granite Floor Polishing in Delhi, Gurugram & Faridabad 🪨
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Ideal for large floor spaces & commercial granite flooring. Repairs damage and restores natural luster.
+                Professional granite floor polishing services across Delhi NCR. Ideal for residential homes, offices, and commercial spaces with granite flooring.
               </p>
               <ul className="space-y-3">
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                  Specialized polishing & restoration service
+                  Specialized granite polishing in Delhi NCR
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                  Removes scratches & stains from granite floors
+                  Professional scratch & stain removal
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                  Suitable for all granite types
+                  Expert care for all granite varieties
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                  End-to-end restoration & polishing
+                  Complete granite floor restoration
                 </li>
                 <li className="flex items-center text-gray-700">
                   <CheckCircle className="w-5 h-5 text-red-600 mr-3 flex-shrink-0" />
-                  Shine-measuring mechanism for consistent results
+                  Consistent quality with professional equipment
                 </li>
               </ul>
             </motion.div>
@@ -391,17 +390,17 @@ const FloorPolishing = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Ready to Restore Your Stone Floors?
+              Ready for Professional Floor Polishing in Delhi NCR?
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Contact us today for a free consultation and quote on our professional marble and granite polishing services
+              Get expert floor polishing in Delhi, Gurugram & Faridabad. Free consultation for marble and granite floor polishing services. Call +91-9999629566 today!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
                 to="/contact"
                 className="bg-red-600 text-white px-8 py-4 rounded-md hover:bg-red-700 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1"
               >
-                Contact Us
+                Get Free Quote - Call Now
               </Link>
             </div>
           </motion.div>

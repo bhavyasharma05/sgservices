@@ -101,14 +101,14 @@ const CarpetCleaning = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                Carpet
+                Professional Carpet Cleaning in Delhi & Gurugram
                 <motion.span 
                   className="block text-red-600"
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.8, delay: 0.5 }}
                 >
-                  Cleaning
+                  Expert Deep Cleaning Services
                 </motion.span>
               </motion.h1>
               
@@ -118,8 +118,8 @@ const CarpetCleaning = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
               >
-                Specialized cleaning to restore the beauty of all carpet surfaces. 
-                Our advanced encapsulation technology ensures deep cleaning with quick drying times.
+                Expert carpet cleaning services in Delhi and Gurugram. Professional deep cleaning, shampooing, and stain removal for all carpet types. 
+                Advanced cleaning technology with quick drying times for residential and commercial spaces.
               </motion.p>
               
               <motion.div 
@@ -176,10 +176,10 @@ const CarpetCleaning = () => {
             variants={itemVariants}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Understanding Our Carpet Cleaning Methods
+              Professional Carpet Cleaning Methods - Delhi & Gurugram
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We offer three specialized cleaning techniques to meet your specific carpet needs
+              Three specialized carpet cleaning techniques for homes and offices in Delhi NCR
             </p>
           </motion.div>
           
@@ -203,8 +203,8 @@ const CarpetCleaning = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Carpet Shampooing with Foam Generator</h3>
               <p className="text-gray-600">
-                For an extensive clean that rejuvenates your carpet's appearance, our advanced foam shampooing 
-                technique provides deep cleaning with faster drying times.
+                Professional carpet shampooing services in Delhi & Gurugram. Advanced foam generator technology provides deep cleaning 
+                with faster drying times for residential and commercial carpets.
               </p>
               <div className="mt-4">
                 <span className="text-red-600 font-medium hover:underline">Learn more →</span>
@@ -227,8 +227,8 @@ const CarpetCleaning = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Carpet Injection & Extraction</h3>
               <p className="text-gray-600">
-                Perfect for tackling deep-seated stains and dirt, this method ensures thorough 
-                cleaning from the base up with our specialized injection and extraction technology.
+                Expert carpet cleaning in Delhi NCR for deep-seated stains and dirt. Professional injection and extraction technology 
+                ensures thorough cleaning for heavily soiled carpets in homes and offices.
               </p>
               <div className="mt-4">
                 <span className="text-red-600 font-medium hover:underline">Learn more →</span>
@@ -251,8 +251,8 @@ const CarpetCleaning = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Carpet Encapsulation</h3>
               <p className="text-gray-600">
-              This low-moisture cleaning process not only cleans but also protects your carpet, 
-              making it ideal for high-traffic commercial areas and modern offices.
+                Professional carpet encapsulation services in Delhi & Gurugram. Low-moisture cleaning process ideal for 
+                high-traffic commercial areas and modern offices across Delhi NCR.
               </p>
               <div className="mt-4">
                 <span className="text-red-600 font-medium hover:underline">Learn more →</span>
@@ -270,10 +270,10 @@ const CarpetCleaning = () => {
             variants={itemVariants}
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Our Carpet Cleaning Process
+              Professional Carpet Cleaning Process - Delhi NCR
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A systematic approach to delivering spotless, fresh carpets
+              Systematic approach for carpet cleaning in Delhi, Gurugram & Faridabad
             </p>
           </motion.div>
 
@@ -311,10 +311,10 @@ const CarpetCleaning = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready for Fresh, Clean Carpets?
+              Ready for Professional Carpet Cleaning in Delhi NCR?
             </h2>
             <p className="text-xl text-red-100 mb-8 max-w-3xl mx-auto">
-              Contact us today for a free consultation and quote on our professional carpet cleaning services
+              Get expert carpet cleaning in Delhi & Gurugram. Free consultation for residential and commercial carpet cleaning services. Call +91-9999629566 today!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.a 
