@@ -378,7 +378,7 @@ const Home = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
               TRUSTED BY PROFESSIONALS ACROSS DELHI NCR
             </h2>
-            <p className="text-neutral-300 text-lg">
+            <p className="text-neutral-800 text-lg">
               Leading companies trust SG Services for their floor polishing and carpet cleaning needs
             </p>
           </motion.div>
