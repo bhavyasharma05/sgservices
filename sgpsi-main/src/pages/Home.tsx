@@ -368,89 +368,78 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Trusted By Section - Based on attachment */}
-      <section className="section-padding bg-[#FCF7EF]">
-        <div className="container-custom">
-          <motion.div 
-            className="text-center mb-12"
-            variants={itemVariants}
-          >
-            <h2 className="text-2xl sm:text-3xl font-bold text-black mb-4 font-display">
-              TRUSTED BY PROFESSIONALS ACROSS DELHI NCR
-            </h2>
-            <p className="text-neutral-800 text-lg">
-              Leading companies trust SG Services for their floor polishing and carpet cleaning needs
-            </p>
-          </motion.div>
-          
-          <motion.div 
-            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center opacity-60"
-            variants={containerVariants}
-          >
-            {/* Company logos placeholder - matching the attachment style */}
-            <motion.div 
-              className="flex items-center justify-center h-16"
-              variants={itemVariants}
-            >
-              <div className="text-neutral-400 text-lg font-semibold">SAMSUNG</div>
-            </motion.div>
-            <motion.div 
-              className="flex items-center justify-center h-16"
-              variants={itemVariants}
-            >
-              <div className="text-neutral-400 text-lg font-semibold">DATADOG</div>
-            </motion.div>
-            <motion.div 
-              className="flex items-center justify-center h-16"
-              variants={itemVariants}
-            >
-              <div className="text-neutral-400 text-lg font-semibold">stripe</div>
-            </motion.div>
-            <motion.div 
-              className="flex items-center justify-center h-16"
-              variants={itemVariants}
-            >
-              <div className="text-neutral-400 text-lg font-semibold">monday.com</div>
-            </motion.div>
-            <motion.div 
-              className="flex items-center justify-center h-16"
-              variants={itemVariants}
-            >
-              <div className="text-neutral-400 text-lg font-semibold">RIPPLING</div>
-            </motion.div>
-            <motion.div 
-              className="flex items-center justify-center h-16"
-              variants={itemVariants}
-            >
-              <div className="text-neutral-400 text-lg font-semibold">perplexity</div>
-            </motion.div>
-            <motion.div 
-              className="flex items-center justify-center h-16"
-              variants={itemVariants}
-            >
-              <div className="text-neutral-400 text-lg font-semibold">ramp</div>
-            </motion.div>
-            <motion.div 
-              className="flex items-center justify-center h-16"
-              variants={itemVariants}
-            >
-              <div className="text-neutral-400 text-lg font-semibold">shopify</div>
-            </motion.div>
-            <motion.div 
-              className="flex items-center justify-center h-16"
-              variants={itemVariants}
-            >
-              <div className="text-neutral-400 text-lg font-semibold">US FOODS</div>
-            </motion.div>
-            <motion.div 
-              className="flex items-center justify-center h-16"
-              variants={itemVariants}
-            >
-              <div className="text-neutral-400 text-lg font-semibold">mercado libre</div>
-            </motion.div>
-          </motion.div>
-        </div>
-      </section>
+{/* Trusted By Section */}
+<section className="section-padding bg-[#FCF7EF]">
+  <div className="container-custom">
+    <motion.div 
+      className="text-center mb-12"
+      variants={itemVariants}
+    >
+      <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 font-display">
+        TRUSTED BY PROFESSIONALS ACROSS DELHI NCR
+      </h2>
+      <p className="text-neutral-600 text-lg">
+        Leading companies trust SG Services for their floor polishing and carpet cleaning needs
+      </p>
+    </motion.div>
+    
+    <motion.div 
+      className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center opacity-80"
+      variants={containerVariants}
+    >
+      {/* Samsung */}
+      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
+        <img src="/logos/samsung.png" alt="Samsung Logo" className="h-10 object-contain" />
+      </motion.div>
+
+      {/* Datadog */}
+      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
+        <img src="/logos/datadog.svg" alt="Datadog Logo" className="h-10 object-contain" />
+      </motion.div>
+
+      {/* Stripe */}
+      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
+        <img src="/logos/stripe.svg" alt="Stripe Logo" className="h-10 object-contain" />
+      </motion.div>
+
+      {/* Monday.com */}
+      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
+        <img src="/logos/monday.png" alt="Monday.com Logo" className="h-10 object-contain" />
+      </motion.div>
+
+      {/* Rippling */}
+      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
+        <img src="/logos/rippling.png" alt="Rippling Logo" className="h-10 object-contain" />
+      </motion.div>
+
+      {/* Perplexity */}
+      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
+        <img src="/logos/perplexity.png" alt="Perplexity Logo" className="h-10 object-contain" />
+      </motion.div>
+
+      {/* Ramp */}
+      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
+        <img src="/logos/ramp.png" alt="Ramp Logo" className="h-10 object-contain" />
+      </motion.div>
+
+      {/* Shopify */}
+      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
+        <img src="/logos/shopify.png" alt="Shopify Logo" className="h-10 object-contain" />
+      </motion.div>
+
+      {/* US Foods */}
+      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
+        <img src="/logos/usfoods.png" alt="US Foods Logo" className="h-10 object-contain" />
+      </motion.div>
+
+      {/* Mercado Libre */}
+      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
+        <img src="/logos/mercadolibre.png" alt="Mercado Libre Logo" className="h-10 object-contain" />
+      </motion.div>
+    </motion.div>
+  </div>
+</section>
+
     </motion.div>
   );
 };
