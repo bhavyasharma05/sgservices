@@ -369,7 +369,7 @@ const Home = () => {
       </section>
 
       {/* Trusted By Section - Based on attachment */}
-      <section className="section-padding bg-[#FDF4CF]">
+      <section className="section-padding bg-[#FCF7EF]">
         <div className="container-custom">
           <motion.div 
             className="text-center mb-12"
