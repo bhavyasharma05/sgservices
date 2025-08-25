@@ -375,7 +375,7 @@ const Home = () => {
             className="text-center mb-12"
             variants={itemVariants}
           >
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-display">
+            <h2 className="text-2xl sm:text-3xl font-bold text-black mb-4 font-display">
               TRUSTED BY PROFESSIONALS ACROSS DELHI NCR
             </h2>
             <p className="text-neutral-800 text-lg">
