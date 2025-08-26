@@ -14,7 +14,7 @@ import CarpetInjection from './pages/CarpetInjection';
 import CarpetEncapsulation from './pages/CarpetEncapsulation';
 import UpholsteryCleaning from './pages/UpholsteryCleaning';
 
-// Error Boundary Component
+// ✅ Error Boundary Component
 class ErrorBoundary extends React.Component<
   { children: React.ReactNode },
   { hasError: boolean }
@@ -38,9 +38,11 @@ class ErrorBoundary extends React.Component<
         <div className="min-h-screen flex items-center justify-center bg-gray-50">
           <div className="text-center p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Something went wrong</h2>
-            <p className="text-gray-600 mb-6">We're sorry, but there was an error loading this page.</p>
-            <button 
-              onClick={() => window.location.href = '/'}
+            <p className="text-gray-600 mb-6">
+              We're sorry, but there was an error loading this page.
+            </p>
+            <button
+              onClick={() => (window.location.href = '/')}
               className="bg-red-600 text-white px-6 py-3 rounded-md hover:bg-red-700 transition-colors"
             >
               Return to Home
@@ -49,6 +51,13 @@ class ErrorBoundary extends React.Component<
         </div>
       );
     }
+
+    // ✅ this must be here inside ErrorBoundary
+    return this.props.children;
+  }
+}
+
+// ✅ Main App
 function App() {
   return (
     <ErrorBoundary>
@@ -69,30 +78,31 @@ function App() {
               <Route path="/carpet-encapsulation" element={<CarpetEncapsulation />} />
               <Route path="/service/upholstery-cleaning" element={<UpholsteryCleaning />} />
               {/* Catch-all route for 404 errors */}
-              <Route path="*" element={
-                <div className="min-h-screen flex items-center justify-center bg-gray-50">
-                  <div className="text-center p-8">
-                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Page Not Found</h2>
-                    <p className="text-gray-600 mb-6">The page you're looking for doesn't exist.</p>
-                    <a 
-                      href="/"
-                      className="bg-red-600 text-white px-6 py-3 rounded-md hover:bg-red-700 transition-colors"
-                    >
-                      Return to Home
-                    </a>
+              <Route
+                path="*"
+                element={
+                  <div className="min-h-screen flex items-center justify-center bg-gray-50">
+                    <div className="text-center p-8">
+                      <h2 className="text-2xl font-bold text-gray-900 mb-4">Page Not Found</h2>
+                      <p className="text-gray-600 mb-6">
+                        The page you're looking for doesn't exist.
+                      </p>
+                      <a
+                        href="/"
+                        className="bg-red-600 text-white px-6 py-3 rounded-md hover:bg-red-700 transition-colors"
+                      >
+                        Return to Home
+                      </a>
+                    </div>
                   </div>
-                </div>
-              } />
+                }
+              />
             </Routes>
           </AnimatePresence>
         </div>
       </Router>
     </ErrorBoundary>
   );
-}
-
-    return this.props.children;
-  }
 }
 
 export default App;
