@@ -195,16 +195,24 @@ const Home = () => {
             variants={containerVariants}
           >
             {services.map((service, index) => (
-              <Link 
-                key={index} 
-                to={`/service/${service.title.toLowerCase().replace(/\s+/g, '-')}`}
-                className="block"
-              >
+              <motion.div key={index} className="block">
                 <motion.div 
                   className="group bg-white p-6 lg:p-8 rounded-xl shadow-lg card-hover border border-neutral-100 cursor-pointer flex flex-col h-full"
                   variants={itemVariants}
                   whileHover={{ y: -8, scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
+                  onClick={() => {
+                    // Handle service navigation based on title
+                    const serviceRoutes = {
+                      'Floor Polishing in Delhi NCR': '/service/floor-polishing',
+                      'Carpet Cleaning Services': '/service/carpet-cleaning',
+                      'Sofa & Blind Cleaning': '/service/upholstery-cleaning'
+                    };
+                    const route = serviceRoutes[service.title as keyof typeof serviceRoutes];
+                    if (route) {
+                      window.location.href = route;
+                    }
+                  }}
                 >
                   <motion.div 
                     className="w-full h-48 sm:h-56 lg:h-64 rounded-lg overflow-hidden mb-4 lg:mb-6"
@@ -223,7 +231,7 @@ const Home = () => {
                   </h3>
                   <p className="text-neutral-600 leading-relaxed text-sm sm:text-base flex-grow">{service.description}</p>
                 </motion.div>
-              </Link>
+              </motion.div>
             ))}
           </motion.div>
         </div>
@@ -383,59 +391,142 @@ const Home = () => {
       </p>
     </motion.div>
     
+    {/* Enhanced Logo Grid with Better Spacing and Larger Logos */}
     <motion.div 
-      className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center opacity-80"
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16"
       variants={containerVariants}
     >
-      {/* Samsung */}
-      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/ds group.webp" alt="Samsung Logo" className="h-10 object-contain" />
+      {/* Row 1 */}
+      <motion.div 
+        className="flex items-center justify-center bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 h-32 group"
+        variants={itemVariants}
+        whileHover={{ scale: 1.05, y: -5 }}
+      >
+        <img 
+          src="/ds group.webp" 
+          alt="DS Group - Trusted Client" 
+          className="h-16 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" 
+        />
       </motion.div>
 
-      {/* Datadog */}
-      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/aktins.webp" alt="Datadog Logo" className="h-10 object-contain" />
+      <motion.div 
+        className="flex items-center justify-center bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 h-32 group"
+        variants={itemVariants}
+        whileHover={{ scale: 1.05, y: -5 }}
+      >
+        <img 
+          src="/aktins.webp" 
+          alt="Atkins - Trusted Client" 
+          className="h-16 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" 
+        />
       </motion.div>
 
-      {/* Stripe */}
-      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/amax.jpg" alt="Stripe Logo" className="h-10 object-contain" />
+      <motion.div 
+        className="flex items-center justify-center bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 h-32 group"
+        variants={itemVariants}
+        whileHover={{ scale: 1.05, y: -5 }}
+      >
+        <img 
+          src="/amax.jpg" 
+          alt="Amax - Trusted Client" 
+          className="h-16 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" 
+        />
       </motion.div>
 
-      {/* Monday.com */}
-      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/coforge.png" alt="Monday.com Logo" className="h-10 object-contain" />
+      {/* Row 2 */}
+      <motion.div 
+        className="flex items-center justify-center bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 h-32 group"
+        variants={itemVariants}
+        whileHover={{ scale: 1.05, y: -5 }}
+      >
+        <img 
+          src="/coforge.png" 
+          alt="Coforge - Trusted Client" 
+          className="h-16 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" 
+        />
       </motion.div>
 
-      {/* Rippling */}
-      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/campus group.webp" alt="Rippling Logo" className="h-10 object-contain" />
+      <motion.div 
+        className="flex items-center justify-center bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 h-32 group"
+        variants={itemVariants}
+        whileHover={{ scale: 1.05, y: -5 }}
+      >
+        <img 
+          src="/campus group.webp" 
+          alt="Campus Group - Trusted Client" 
+          className="h-16 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" 
+        />
       </motion.div>
 
-      {/* Perplexity */}
-      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/monnit.jpg" alt="Perplexity Logo" className="h-10 object-contain" />
+      <motion.div 
+        className="flex items-center justify-center bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 h-32 group"
+        variants={itemVariants}
+        whileHover={{ scale: 1.05, y: -5 }}
+      >
+        <img 
+          src="/monnit.jpg" 
+          alt="Monnet - Trusted Client" 
+          className="h-16 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" 
+        />
       </motion.div>
 
-      {/* Ramp */}
-      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/mall.jpg" alt="Ramp Logo" className="h-10 object-contain" />
+      {/* Row 3 */}
+      <motion.div 
+        className="flex items-center justify-center bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 h-32 group"
+        variants={itemVariants}
+        whileHover={{ scale: 1.05, y: -5 }}
+      >
+        <img 
+          src="/mall.jpg" 
+          alt="Mall - Trusted Client" 
+          className="h-16 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" 
+        />
       </motion.div>
 
-      {/* Shopify */}
-      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/kpmg.jpg" alt="Shopify Logo" className="h-10 object-contain" />
+      <motion.div 
+        className="flex items-center justify-center bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 h-32 group"
+        variants={itemVariants}
+        whileHover={{ scale: 1.05, y: -5 }}
+      >
+        <img 
+          src="/kpmg.jpg" 
+          alt="KPMG - Trusted Client" 
+          className="h-16 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" 
+        />
       </motion.div>
 
-      {/* US Foods */}
-      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/primus hospital.png" alt="US Foods Logo" className="h-10 object-contain" />
+      <motion.div 
+        className="flex items-center justify-center bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-8 h-32 group"
+        variants={itemVariants}
+        whileHover={{ scale: 1.05, y: -5 }}
+      >
+        <img 
+          src="/primus hospital.png" 
+          alt="Primus Hospital - Trusted Client" 
+          className="h-16 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300" 
+        />
       </motion.div>
+    </motion.div>
 
-      {/* Mercado Libre */}
-      <motion.div className="flex items-center justify-center h-16" variants={itemVariants}>
-        <img src="/logos/mercadolibre.png" alt="Mercado Libre Logo" className="h-10 object-contain" />
-      </motion.div>
+    {/* Trust Indicators */}
+    <motion.div 
+      className="mt-16 text-center"
+      variants={itemVariants}
+    >
+      <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-neutral-600">
+        <div className="flex items-center gap-2">
+          <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+          <span>5000+ Projects Completed</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+          <span>20+ Years Experience</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+          <span>100% Client Satisfaction</span>
+        </div>
+      </div>
     </motion.div>
   </div>
 </section>
